@@ -1,0 +1,2 @@
+[0302/144435.013:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\ROBERT~1.WAT\AppData\Local\Temp\karma-2855483\Crashpad: The system cannot find the file specified. (0x2)
+[0302/144517.762:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\ROBERT~1.WAT\AppData\Local\Temp\karma-2855483\Crashpad: The system cannot find the file specified. (0x2)

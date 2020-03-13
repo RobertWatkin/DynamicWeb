@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { ArticleModule } from './articles/articles.module'
+import { ArticleModule } from './articles/articles.module';
+import { AccountsModule} from './accounts/accounts.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,6 +29,7 @@ const AppRoutes: Routes = [
     BrowserModule,
     AppRoutingModule,
     ArticleModule,
+    AccountsModule,
     RouterModule.forRoot(AppRoutes)
   ],
   providers: [],

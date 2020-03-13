@@ -2,13 +2,24 @@
     <h1>New Article</h1>
     <form>
       <div class="form-group">
-        <label for="name">Article Title</label>
-        <input type="text" class="form-control" id="articleTitle" required>
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <label for="name">Article Title</label>
+          </div>
+          <div class="col-md-4 col-sm-0"></div>
+          <div class="col-md-4 col-sm-6">
+            <a [routerLink]="['/article_list']">Back</a>
+          </div>
+        </div>
+        
+        <input name="id" type="hidden" id="">
+
+        <input name="title" type="text" class="form-control" id="articleTitle" required [(ngModel)]="title">
       </div>
 
       <div class="form-group">
         <label for="alterEgo">Article Content</label>
-        <textarea type="text" class="form-control" id="articleContent"></textarea>
+        <textarea name="content" type="text" class="form-control" id="articleContent" required [(ngModel)]="content"></textarea>
       </div>
 
       <button type="submit" class="btn btn-success">Submit</button>
